@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcrisk"
+version = "1.0.0"
+description = "Monte Carlo portfolio risk: VaR, Expected Shortfall, stress tests and backtesting"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pandas>=2.0", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+yahoo = ["yfinance>=0.2"]
+
+[project.scripts]
+mcrisk = "mcrisk.run:main"
+
+[tool.setuptools.packages.find]
+include = ["mcrisk*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
