@@ -1,6 +1,6 @@
 # 🎲 Monte Carlo Portfolio Risk
 
-[![CI](https://github.com/shivaan_1908/monte-carlo-portfolio-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/monte-carlo-portfolio-risk/actions)
+[![CI](https://github.com/shivaan_1908/monte-carlo-portfolio-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/shivaan_1908/monte-carlo-portfolio-risk/actions)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -19,7 +19,7 @@ This repo makes that visible, quantified and testable.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/monte-carlo-portfolio-risk && cd monte-carlo-portfolio-risk
+git clone https://github.com/shivaan_1908/monte-carlo-portfolio-risk && cd monte-carlo-portfolio-risk
 pip install -e ".[dev]"
 
 mcrisk                                       # offline demo on synthetic fat-tailed data
